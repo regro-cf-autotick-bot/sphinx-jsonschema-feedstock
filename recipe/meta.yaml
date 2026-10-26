@@ -1,5 +1,5 @@
 {% set name = "sphinx-jsonschema" %}
-{% set version = "1.20.0" %}
+{% set version = "1.20.1" %}
 
 
 package:
@@ -8,7 +8,7 @@ package:
 
 source:
   url: https://files.pythonhosted.org/packages/source/{{ name[0] }}/{{ name }}/{{ name | replace('-', '_') }}-{{ version }}.tar.gz
-  sha256: 472631960973368790afef549325b5faeab1a9ed205f5f14b753c4c2d62045ba
+  sha256: 56d84e2051d7221d9089f11d113abe45581aa5e1a3e9c2bf99f96f5e5696b4f2
 
 build:
   number: 0
